@@ -14,7 +14,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__,
 	'Auto-Update-WP-Plugin'
 );
-$updateChecker->setBranch('master');
+$myUpdateChecker->setBranch('master');
 
   add_action( 'plugins_loaded', array( 'PF_B_Manager', '_instance' ) );
 
