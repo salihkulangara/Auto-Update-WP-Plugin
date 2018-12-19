@@ -5,7 +5,7 @@
   * Plugin URI:         https://www.parentfinder.com/
   * Author:             Velvet Ink Media
   * Author URI:         http://velvetinkmedia.com/
-  * Version:            1.0.4.0
+  * Version:            1.0.4.1
   **/
 
 require 'plugin-update-checker/plugin-update-checker.php';
