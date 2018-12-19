@@ -1,4 +1,4 @@
-== Auto-Update-WP-Plugin ==
+# Auto-Update-WP-Plugin
 Contributors: cairs solutions
 Tags: families, adoptive families
 Requires at least: 4.9
