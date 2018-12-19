@@ -8,6 +8,13 @@
   * Version:            1.0.4.0
   **/
 
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/salihkulangara/sk-wp-plugin/',
+	__FILE__,
+	'sk-wp-plugin'
+);
+
   add_action( 'plugins_loaded', array( 'PF_B_Manager', '_instance' ) );
 
   class PF_B_Manager
