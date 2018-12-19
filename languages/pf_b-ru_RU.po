@@ -1,0 +1,622 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ParentFinder Badge\n"
+"POT-Creation-Date: 2018-01-07 17:57+0300\n"
+"PO-Revision-Date: 2018-01-07 17:57+0300\n"
+"Last-Translator: \n"
+"Language-Team: Velvet Ink Media\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: /Users/morfi/Работа/PF-Badge/plugin/release/pf-badge\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Bookmarks: -1,90,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/dashboard/views/settings/fields/info-block.php:3
+msgid "Show Info Blocks?"
+msgstr "Показать Инфо Блоки?"
+
+#: assets/dashboard/views/settings/fields/info-block.php:7
+#, php-format
+msgid "Show block every %s profiles"
+msgstr "Показывать блок каждые %s"
+
+#: assets/dashboard/views/settings/fields/info-block.php:40
+msgid "Title"
+msgstr "Название"
+
+#: assets/dashboard/views/settings/fields/info-block.php:43
+msgid "Background color:"
+msgstr "Фоновый цвет:"
+
+#: assets/dashboard/views/settings/fields/info-block.php:44
+msgid "Color"
+msgstr "Цвет"
+
+#: assets/dashboard/views/settings/fields/info-block.php:47
+msgid "Background image:"
+msgstr "Фоновое изображение:"
+
+#: assets/dashboard/views/settings/fields/info-block.php:53
+msgid "Text"
+msgstr "Текст"
+
+#: assets/dashboard/views/settings/fields/info-block.php:55
+msgid "Link"
+msgstr "Ссылка"
+
+#: assets/dashboard/views/settings/fields/info-block.php:56
+msgid "URL"
+msgstr "URL"
+
+#: assets/dashboard/views/settings/fields/info-block.php:59
+msgid "Large"
+msgstr "Большой"
+
+#: assets/dashboard/views/settings/fields/info-block.php:60
+msgid "Small"
+msgstr "Малый"
+
+#: assets/dashboard/views/settings/page.php:3
+#, php-format
+msgid ""
+"To display profiles, copy and paste this shortcode to any page <code>%s</"
+"code>"
+msgstr ""
+"Чтобы отобразить профили, скопируйте и вставьте этот короткий код на любую "
+"страницу <code>%s</code>"
+
+#: include/classes/gateway/data.php:73
+msgid "Load More Families"
+msgstr "Загрузить больше семей"
+
+#: include/classes/gateway/data.php:74
+msgid "Read More"
+msgstr "Подробнее"
+
+#: include/classes/gateway/data.php:76
+msgid "See Profile"
+msgstr "Просмотр профиля"
+
+#: include/classes/gateway/data.php:77
+msgid "Profile in progress. Please check back soon."
+msgstr "Профиль настраивается. Пожалуйста проверьте позже."
+
+#: include/classes/gateway/data.php:78
+msgid "Profile not found."
+msgstr "Профиль не найден."
+
+#: include/classes/gateway/data.php:79
+msgid "Search by Name"
+msgstr "Поиск по имени"
+
+#: include/classes/gateway/data.php:80 include/classes/settings.php:319
+msgid "Country/State"
+msgstr "Страна/Штат"
+
+#: include/classes/gateway/data.php:81 include/classes/gateway/data.php:115
+#: include/classes/settings.php:318
+msgid "Religion"
+msgstr "Религия"
+
+#: include/classes/gateway/data.php:82 include/classes/gateway/data.php:118
+#: include/classes/settings.php:320
+msgid "Waiting"
+msgstr "Ожидаемый возраст"
+
+#: include/classes/gateway/data.php:83 include/classes/settings.php:317
+msgid "Kids in family"
+msgstr "Дети в семье"
+
+#: include/classes/gateway/data.php:84 include/classes/settings.php:321
+msgid "Status"
+msgstr "Статус"
+
+#: include/classes/gateway/data.php:85 include/classes/settings.php:322
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: include/classes/gateway/data.php:86 include/classes/settings.php:298
+msgid "Random"
+msgstr "Случайно"
+
+#: include/classes/gateway/data.php:87 include/classes/settings.php:299
+msgid "Oldest waiting"
+msgstr "Долго ожидающие"
+
+#: include/classes/gateway/data.php:88 include/classes/settings.php:300
+msgid "Youngest waiting"
+msgstr "Недавно ожидающие"
+
+#: include/classes/gateway/data.php:89 include/classes/settings.php:301
+msgid "First Name"
+msgstr "Имени"
+
+#: include/classes/gateway/data.php:90
+msgid "Last Name"
+msgstr "Фамилии"
+
+#: include/classes/gateway/data.php:91
+msgid "Selected"
+msgstr "Выбрано"
+
+#: include/classes/gateway/data.php:92
+msgid "Error get data"
+msgstr "Ошибка получения данных"
+
+#: include/classes/gateway/data.php:93
+msgid "Not found"
+msgstr "Ничего не найдено"
+
+#: include/classes/gateway/data.php:95
+msgid "Contact Us 24x7"
+msgstr "Контакты 24x7"
+
+#: include/classes/gateway/data.php:96
+msgid "Back to Search"
+msgstr "Вернуться к поиску"
+
+#: include/classes/gateway/data.php:97
+msgid "Phone"
+msgstr "Телефон"
+
+#: include/classes/gateway/data.php:98
+msgid "Download"
+msgstr "Скачать"
+
+#: include/classes/gateway/data.php:99
+msgid "Email"
+msgstr "Почта"
+
+#: include/classes/gateway/data.php:100
+msgid "WebSite"
+msgstr "Сайт"
+
+#: include/classes/gateway/data.php:101 include/classes/gateway/data.php:136
+msgid "Chat"
+msgstr "Чат"
+
+#: include/classes/gateway/data.php:102
+msgid "Flipbook"
+msgstr "Флип-книга"
+
+#: include/classes/gateway/data.php:103
+msgid "See more photos"
+msgstr "Смотреть другие фото"
+
+#: include/classes/gateway/data.php:104
+msgid "See more videos"
+msgstr "Смотреть другие видео"
+
+#: include/classes/gateway/data.php:105
+msgid "Watch our video"
+msgstr "Смотреть наше видео"
+
+#: include/classes/gateway/data.php:106
+msgid "Vitals"
+msgstr "Главное"
+
+#: include/classes/gateway/data.php:107
+msgid "Journals"
+msgstr "Статьи"
+
+#: include/classes/gateway/data.php:108
+msgid "Letters"
+msgstr "Письма"
+
+#: include/classes/gateway/data.php:109
+msgid "About Us"
+msgstr "О нас"
+
+#: include/classes/gateway/data.php:110
+msgid "Videos"
+msgstr "Видео"
+
+#: include/classes/gateway/data.php:111
+msgid "Our adoption preferences"
+msgstr "Наши предпочтения"
+
+#: include/classes/gateway/data.php:112
+msgid "Ethnicity"
+msgstr "Этнос"
+
+#: include/classes/gateway/data.php:113
+msgid "Age"
+msgstr "Возраст"
+
+#: include/classes/gateway/data.php:114
+msgid "Adoption type"
+msgstr "Тип усыновления"
+
+#: include/classes/gateway/data.php:116
+msgid "Education"
+msgstr "Образование"
+
+#: include/classes/gateway/data.php:117
+msgid "Gender"
+msgstr "Пол"
+
+#: include/classes/gateway/data.php:121
+msgid "Error of sending form"
+msgstr "Ошибка отправки данных"
+
+#: include/classes/gateway/data.php:122
+msgid "Form submitted"
+msgstr "Форма отправлена"
+
+#: include/classes/gateway/data.php:123
+msgid "Invalid data"
+msgstr "Неверные данные"
+
+#: include/classes/gateway/data.php:127
+msgid "Now"
+msgstr "Сейчас"
+
+#: include/classes/gateway/data.php:128
+msgid "Morning"
+msgstr "Утром"
+
+#: include/classes/gateway/data.php:129
+msgid "Afternoon"
+msgstr "После полудня"
+
+#: include/classes/gateway/data.php:130
+msgid "Evening"
+msgstr "Вечером"
+
+#: include/classes/gateway/data.php:132
+msgid "or"
+msgstr "или"
+
+#: include/classes/gateway/data.php:133
+msgid "Call me back"
+msgstr "Позвоните мне позже"
+
+#: include/classes/gateway/data.php:134
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: include/classes/gateway/data.php:135
+msgid "Message"
+msgstr "Сообщение"
+
+#: include/classes/gateway/data.php:137
+msgid "Your email"
+msgstr "Ваша почта"
+
+#: include/classes/gateway/data.php:138
+msgid "Send email"
+msgstr "Отправить письмо"
+
+#: include/classes/gateway/data.php:139
+msgid "Submit"
+msgstr "Отправить"
+
+#: include/classes/gateway/data.php:143
+msgid ""
+"Use these navigation icons for quick access to contacts, downloads and other "
+"information."
+msgstr ""
+"Используйте эти иконки навигации для быстрого доступа к контактам, файлам и "
+"другой информации."
+
+#: include/classes/gateway/data.php:144
+msgid ""
+"Click on any photo to view the gallery. You can also click SEE MORE PHOTOS "
+"to view photo gallery from the beginning."
+msgstr ""
+"Нажмите на любую фотографию, чтобы просмотреть всю галерею. Вы также можете "
+"нажать ПРОСМОТРЕТЬ ВСЕ ФОТО, чтобы просмотреть фотогалерею с самого начала."
+
+#: include/classes/gateway/data.php:145
+msgid ""
+"Click on video to play or use SEE MORE VIDEOS link to view all available "
+"videos."
+msgstr ""
+"Нажмите на видео для воспроизведения или используйте ссылку ПРОСМОТРЕТЬ ВСЕ "
+"ВИДЕО, чтобы просмотреть все доступные видео."
+
+#: include/classes/gateway/data.php:146
+msgid "Click on section headings to view extra content."
+msgstr ""
+"Нажмите на заголовок раздела, чтобы просмотреть дополнительные контент."
+
+#: include/classes/gateway/data.php:149
+msgid "skip"
+msgstr "пропустить"
+
+#: include/classes/gateway/data.php:150
+msgid "done"
+msgstr "готово"
+
+#: include/classes/gateway/data.php:151
+msgid "next"
+msgstr "следющий"
+
+#: include/classes/gateway/data.php:152
+msgid "prev"
+msgstr "предудущая"
+
+#: include/classes/gateway/data.php:377
+msgid "1 child"
+msgstr "1 ребенок"
+
+#: include/classes/gateway/data.php:377
+#, php-format
+msgid "%s children"
+msgstr "%s детей"
+
+#: include/classes/gateway/form.php:87
+msgid "Message from {your_email} for user {username}"
+msgstr "Сообщение от {your_email} для пользователя {username}"
+
+#: include/classes/gateway/form.php:88
+msgid "Message from {phone_number} for user {username}"
+msgstr "Сообщение от {phone_number} для пользователя {username}"
+
+#: include/classes/gateway/form.php:89
+msgid "Call Request from {phone_number}"
+msgstr "Запрос звонка от {phone_number}"
+
+#: include/classes/loader.php:107
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+#: include/classes/loader.php:108
+msgid "Insert"
+msgstr "Вставить"
+
+#: include/classes/loader.php:109
+msgid "Upload"
+msgstr "Загрузить"
+
+#: include/classes/loader.php:110
+msgid "Remove"
+msgstr "Удалить"
+
+#: include/classes/settings.php:130 include/helpers/shortcode.php:173
+msgid "Matched"
+msgstr ""
+
+#: include/classes/settings.php:134 include/classes/settings.php:403
+#: include/helpers/shortcode.php:173
+msgid "Placed"
+msgstr ""
+
+#: include/classes/settings.php:138 include/classes/settings.php:415
+msgid "In Progress"
+msgstr ""
+
+#: include/classes/settings.php:176 include/classes/settings.php:177
+msgid "ParentFinder Badge"
+msgstr ""
+
+#: include/classes/settings.php:199
+msgid "Settings Saved"
+msgstr "Настройки сохранены"
+
+#: include/classes/settings.php:237
+msgid "Display"
+msgstr "Отображение"
+
+#: include/classes/settings.php:244
+msgid "Customisation"
+msgstr "Оформление"
+
+#: include/classes/settings.php:255
+msgid "API Key"
+msgstr "API Ключ"
+
+#: include/classes/settings.php:267
+msgid "Agency ID"
+msgstr "Идентификатор агентства"
+
+#: include/classes/settings.php:279 include/classes/settings.php:458
+msgid "Number of families to display"
+msgstr "Количество семей для отображения"
+
+#: include/classes/settings.php:290
+msgid "Display Order"
+msgstr "Отобразить как"
+
+#: include/classes/settings.php:308
+msgid "Sorting Options"
+msgstr "Параметры сортировки"
+
+#: include/classes/settings.php:316
+msgid "Profiles I like"
+msgstr "Профили, которые мне нравятся"
+
+#: include/classes/settings.php:329
+msgid "Disable In Progress Profiles on site?"
+msgstr "Исключить профили In Progress из отображения на сайте?"
+
+#: include/classes/settings.php:337
+msgid "Yes"
+msgstr "Да"
+
+#: include/classes/settings.php:338
+msgid "No"
+msgstr "Нет"
+
+#: include/classes/settings.php:345
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: include/classes/settings.php:357
+msgid "Secondary Color"
+msgstr "Дополнительный цвет"
+
+#: include/classes/settings.php:369
+msgid "Font family"
+msgstr "Шрифт"
+
+#: include/classes/settings.php:377
+msgid "From current theme"
+msgstr "Из текущей темы"
+
+#: include/classes/settings.php:378
+msgid "From plugin"
+msgstr "Из плагина"
+
+#: include/classes/settings.php:384
+msgid "Matched Badge"
+msgstr ""
+
+#: include/classes/settings.php:391 include/classes/settings.php:403
+#: include/classes/settings.php:415
+#, php-format
+msgid "If left empty will show %s"
+msgstr "Если значение не указано, будет отображаться %s"
+
+#: include/classes/settings.php:391
+msgid "MATCHED"
+msgstr ""
+
+#: include/classes/settings.php:396
+msgid "Placed Badge"
+msgstr ""
+
+#: include/classes/settings.php:408
+msgid "In Progress Badge"
+msgstr ""
+
+#: include/classes/settings.php:420
+msgid "Manage Info Blocks"
+msgstr "Управление Инфо Блоками"
+
+#: include/classes/settings.php:461
+msgid "Info Blocks position"
+msgstr "Расположение Инфо Блоков"
+
+#: include/classes/settings.php:471
+#, php-format
+msgid "Invalid value for %s"
+msgstr "Недопустимое значение для %s"
+
+#: include/helpers/shortcode.php:27
+msgid ""
+"This widget will display family profiles from your ParentFinder account. To "
+"change colors and manage info blocks go to Tools > ParentFinder Badge."
+msgstr ""
+"Этот шорткод будет отображать семьи из вашего аккаунта ParentFinder. Для "
+"изменения цвета и управления инфо блоками перейдите Инструменты > "
+"ParentFinder Badge."
+
+#: include/helpers/shortcode.php:55
+msgid "ParentFinder"
+msgstr ""
+
+#: include/helpers/shortcode.php:165
+msgid "All Profiles"
+msgstr "Все профили"
+
+#: include/helpers/shortcode.php:166
+msgid "Featured Profiles"
+msgstr "Избранные профили"
+
+#: include/helpers/shortcode.php:167
+msgid "Number of Profiles"
+msgstr "Количество профилей"
+
+#: include/helpers/shortcode.php:168
+#, php-format
+msgid "Enter the total number of profiles to display. Default: %s."
+msgstr "Введите общее количество профилей для отображения. По-умолчанию: %s."
+
+#: include/helpers/shortcode.php:169
+msgid "Order"
+msgstr "Порядок"
+
+#: include/helpers/shortcode.php:170
+msgid "Heading style"
+msgstr "Тип заголовка"
+
+#: include/helpers/shortcode.php:171
+msgid "Select page with profiles listing"
+msgstr "Выберите страницу с профилями"
+
+#: include/helpers/shortcode.php:172
+msgid "Select profile type to display"
+msgstr "Выберите тип профилей для отображения"
+
+#: include/helpers/shortcode.php:173
+msgid "Both"
+msgstr "И то и то"
+
+#~ msgid "Grid"
+#~ msgstr "Сетка"
+
+#~ msgid "Featured"
+#~ msgstr "Избранные"
+
+#~ msgid "Element type"
+#~ msgstr "Тип элемента"
+
+#~ msgid "Grid Page"
+#~ msgstr "Страница с сеткой профилей"
+
+#~ msgid "Invalid API key or Agency ID."
+#~ msgstr "Неверный ключ API или ID агентства."
+
+#~ msgid "Profiles I Like"
+#~ msgstr "Избранное"
+
+#~ msgid "Remove background image"
+#~ msgstr "Удалить фоновое изображение"
+
+#~ msgid "Request to ..."
+#~ msgstr "Запрос к ..."
+
+#~ msgid "Contact"
+#~ msgstr "Контакты"
+
+#~ msgid "january"
+#~ msgstr "январь"
+
+#~ msgid "february"
+#~ msgstr "февраль"
+
+#~ msgid "march"
+#~ msgstr "март"
+
+#~ msgid "april"
+#~ msgstr "апрель"
+
+#~ msgid "may"
+#~ msgstr "май"
+
+#~ msgid "june"
+#~ msgstr "июнь"
+
+#~ msgid "july"
+#~ msgstr "июль"
+
+#~ msgid "august"
+#~ msgstr "август"
+
+#~ msgid "september"
+#~ msgstr "сентябрь"
+
+#~ msgid "october"
+#~ msgstr "октябрь"
+
+#~ msgid "december"
+#~ msgstr "декабрь"
+
+#~ msgid "Newest first"
+#~ msgstr "Сначала новые"
+
+#~ msgid "Alphabetic"
+#~ msgstr "Алфавитный"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "Update background image"
+#~ msgstr "Обновить фоновое изображение"
