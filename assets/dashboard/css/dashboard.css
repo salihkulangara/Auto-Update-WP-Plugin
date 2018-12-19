@@ -1,0 +1,55 @@
+.tools_page_pf_b .wrap{
+  background: url( '../images/logo.png' );
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-size: 215px;
+}
+
+.pf_b_badge_wrapper input:first-child{
+  float: left;
+  margin-right: 20px;
+}
+
+.pf_b_badge_wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pf_b-form .wp-picker-holder{
+  position: absolute;
+  z-index: 1000000;
+}
+
+.mce-toolbar .mce-ico.mce-i-pf_b{
+  background-image: url( '../images/tinymce.png' );  
+}
+
+
+.wpb_element_wrapper .pf_b-hide-field{
+  display: none;
+}
+
+.pf_b-vc-element.wpb_content_element .wpb_element_wrapper h4 i.vc_element-icon{
+  float:none;
+  margin: 0 auto;
+}
+
+.pf_b-vc-element.wpb_content_element .wpb_element_wrapper h4.wpb_element_title,
+.pf_b-vc-element.wpb_content_element .wpb_element_wrapper .pf_b-title-field,
+.pf_b-vc-element.wpb_content_element .wpb_element_wrapper .wpb_vc_param_value.pf_b-title-field{
+  text-align: center;
+}
+
+.pf_b-vc-element .wpb_element_wrapper .wpb_vc_param_value.pf_b-title-field.pf_b-child-field{
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*Rasheed changes 9/10/2018*/
+span.details-head {
+    font-weight: 700;
+}
+/*Rasheed changes 9/10/2018*/

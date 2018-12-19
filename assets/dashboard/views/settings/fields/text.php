@@ -1,0 +1,2 @@
+<input type="text" <?= isset( $class ) ? 'class="'.$class.'"' : ''; ?> name="<?= PF_B_Manager::$action.PF_B_Settings::$options_suffix;?>[<?= $name;?>]" value="<?= isset( PF_B_Manager::$options[$name] ) ? PF_B_Manager::$options[$name] : ''; ?>" />
+<?= isset( $description ) ? '<p class="description">'.$description.'</p>' : '';?>

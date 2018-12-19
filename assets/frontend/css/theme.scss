@@ -1,0 +1,344 @@
+@import "_mixins.scss";
+@import "_media.scss";
+
+// THEME
+
+  .pf-app {
+    font-family: $font-family;
+
+    .pf-button,
+    .pf-button:focus,
+    .pf-button:visited {
+      color: $font-color;
+      background-color: $primary-color;
+
+      &:hover {background-color: $secondary-color;}
+    }
+
+    .pf-loading-ico svg {fill: $secondary-color;}
+  }
+
+
+  //App.vue
+    .multiselect__content {color: $font-color-secondary;}
+
+    .multiselect__option.multiselect__option--highlight {
+      background: $secondary-color;
+    }
+
+    .multiselect__tag-icon.pf-custom {
+      color: $font-color;
+      .pf-search-field & {
+        background: $primary-color;
+      }
+
+      &:hover,
+      &:focus {
+        background: $primary-color;
+        color: $font-color;
+      }
+
+      .pf-search-field &:hover,
+      .pf-search-field &:focus {
+        background: $secondary-color;
+      }
+    }
+
+    .pf-app {
+      font-size: $app-font-size;
+
+      input.multiselect__input,
+      input.multiselect__single,
+      .multiselect {
+        color: $font-color;
+        font-size: 1em;
+        opacity: 1;
+      }
+
+
+      .pf-filters {
+        background: $primary-color;
+        color: $font-color;
+        font-size: 1em;
+
+        .pf-fitler-btn{
+          &,
+          &:visited,
+          &:focus,
+          &:hover {color: $font-color; }
+
+          &.pf-active  {background: $secondary-color; }
+        }
+
+        .pf-filter {
+
+          .pf-search {
+            input {
+              color: $primary-color;
+              font-family: $font-family;
+            }
+
+            svg {fill: $secondary-color;}
+
+            .pf-search-btn svg {fill: $font-color;}
+          }
+        }
+      }
+
+      .pf-search-field input {
+        border-color: $primary-color;
+      }
+
+
+
+    }
+
+
+  // Adv.vue
+    .pf-item.pf-adv {
+      .pf-item-inner {background-color: $adv-bg-color;}
+
+      .pf-adv-content {
+        h5 {
+          color: $font-color;
+
+          &+p:after {background-color: $font-color;}
+        }
+      }
+
+
+    }
+
+    //MoreBtn.vue
+    .pf-more-wrap {
+      .pf-more {
+        color: $font-color;
+        background-color: $secondary-color;
+
+        &:hover {background-color: $primary-color;}
+      }
+
+    }
+  //Item.vue
+    .pf-item {
+      color: $font-color;
+      font-size: 1em;
+
+      .pf-item-label {color: $font-color;}
+
+
+      .pf-item-title {
+        color: $font-color;
+        background-color: $primary-color;
+
+        h5 {
+          font-family: $font-family;
+
+          &:after {background-color: $font-color;}
+        }
+
+      }
+
+
+      .pf-item-btns {
+
+        a.pf-item-btn {color: $font-color;}
+
+        a.pf-btn-favorite {
+          &:hover,
+          &.pf-active {background-color: $favorite-color-hover;}
+        }
+
+        .pf-btn-contact {
+          background-color: $secondary-color;
+        }
+
+        a.pf-btn-contact:hover {background-color: $primary-color;}
+      }
+
+    }
+
+  // Profile.vue
+    .pf-profile-header .pf-profile-phone div {color: $primary-color;}
+
+    .pf-profile-phone {
+      text-align: center;
+      margin-right: 30px;
+
+      span {color: #635C60;}
+
+      div {font-weight: bold;}
+    }
+
+    .pf-profile-g-footer a {
+      color: $primary-color;
+
+      &:hover {color: $secondary-color;}
+    }
+
+    .pf-round-btn {
+      background: $secondary-color;
+      color: $font-color;
+      svg {fill: $font-color;}
+    }
+
+    .pf-round-btn:hover,
+    .pf-round-btn.pf-active,
+    .pf-tooltip-item:hover  .pf-round-btn{background: $primary-color; }
+
+    .pf-tooltip-inner .pf-tooltip-item div {color: $primary-color;}
+
+    .pf-video-list .pf-v-item h5 {
+      &,
+      & a {color: $primary-color; }
+
+      & a:hover {color: $secondary-color;}
+    }
+
+
+    .pf-vit-table-wrap {
+      background: $journal-background;
+
+      &.pf-vit-with-footer {
+        .pf-vit-table-footer {
+          color: $primary-color;
+
+          svg {fill: $primary-color;}
+        }
+      }
+
+      table.pf-vit-table {
+        th {
+          background: $primary-color;
+          color: $font-color;
+        }
+
+        &.pf-style-2 th {background: $secondary-color; }
+      }
+    }
+
+
+  // FilterSelect.vue
+
+  // Multiselect
+    .multiselect__tag {
+      background: $secondary-color;
+      color: $font-color;
+
+
+      .multiselect__tag-icon {
+        color: $font-color;
+
+        &:hover,
+        &:focus {background: $primary-color; }
+      }
+    }
+
+
+  // Tab.vue
+
+    .pf-tab {
+      .pf-tab-title {
+        color: $font-color;
+        background-color: $primary-color;
+      }
+
+      &.inited .pf-tab-title.pf-open,
+      & .pf-tab-title:hover {background-color: $secondary-color; }
+    }
+
+  // Journals.vue
+    .pf-journals-list {
+
+      .pf-j-item {
+        .pf-j-item-inner {
+          background: $journal-background;
+          color: $journal-color;
+
+          h5 {color: $primary-color; }
+
+          .pf-j-date {color: $journal-date-color;}
+        }
+      }
+    }
+
+  //FORMS
+    .pf-form {
+      background-color: $form-bg-color;
+      border-color: $form-border-color;
+      font-family: $font-family;
+
+      .pf-form-error {color: $errorColor; }
+
+      .pf-form-success {color: $successColor; }
+
+      &.pf-style-2 {
+        border-color: $form-border-secondary-color;
+        background-color: $form-bg-secondary-color;
+      }
+
+      .pf-form-title {
+        border-bottom-color: $form-border-secondary-color;
+
+        span {color: $primary-color;}
+      }
+
+      form {
+        textarea.pf-input,
+        input,
+        select,
+        .pf-input,
+        .pf-submit {
+          font-family: $font-family;
+        }
+
+        .pf-carret svg {fill: $primary-color;}
+
+        .pf-submit {
+          color: $font-color;
+
+          &, &:disabled:hover {background: $primary-color;}
+
+          &:hover {background: $secondary-color; }
+        }
+      }
+
+    }
+
+    .pf-checkbox {
+      background: $checkboxBg;
+
+      svg {fill: $checkColor;}
+    }
+
+  // INTRO TOOLTIPS
+
+  .introjs-tooltipReferenceLayer{
+     font-size: $app-font-size;
+
+    .introjs-helperNumberLayer {background: $primary-color; }
+
+    .pf-intro-tooltip {
+      font-family: $font-family;
+
+      .introjs-button {
+        color: $font-color;
+        &,
+        &.introjs-disabled:hover {
+          background: $primary-color;
+
+          &.introjs-skipbutton,
+          &.introjs-donebutton {background: $secondary-color;}
+        }
+
+        &:hover {
+          background: $secondary-color;
+
+          &.introjs-skipbutton,
+          &.introjs-donebutton {background: $primary-color;}
+        }
+
+      }
+    }
+    }
+// END THEME

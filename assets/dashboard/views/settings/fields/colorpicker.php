@@ -1,0 +1,1 @@
+<input type="text" name="<?= PF_B_Manager::$action.PF_B_Settings::$options_suffix;?>[<?= $name;?>]" value="<?= isset( PF_B_Manager::$options['title'] ) ? PF_B_Manager::$options['title'] : ''; ?>" />
