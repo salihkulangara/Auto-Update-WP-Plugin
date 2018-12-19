@@ -3,9 +3,9 @@
   * Plugin Name:        ParentFinder Badge
   * Description:        Display parent's profiles on your website using ParentFinder API. 
   * Plugin URI:         https://www.parentfinder.com/
-  * Author:             Velvet Ink Media
-  * Author URI:         http://velvetinkmedia.com/
-  * Version:            1.0.4.1
+  * Author:             Cairs
+  * Author URI:         http://cairsolutions.com/
+  * Version:            1.0.4.2
   **/
 
 require 'plugin-update-checker/plugin-update-checker.php';
