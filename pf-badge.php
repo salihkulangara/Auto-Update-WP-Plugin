@@ -5,7 +5,7 @@
   * Plugin URI:         https://www.parentfinder.com/
   * Author:             Cairs
   * Author URI:         http://cairsolutions.com/
-  * Version:            1.0.5
+  * Version:            1.0.5.1
   **/
 
 require 'plugin-update-checker/plugin-update-checker.php';
